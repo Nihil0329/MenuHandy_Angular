@@ -1,0 +1,34 @@
+@import url(https://db.onlinewebfonts.com/c/5e605ff6994ce0e533aaf6cd51c6a33f?family=Pecita);
+
+footer{
+  font-family: "Pecita";
+  font-size: larger;
+  color: #5C3018;
+}
+.bg{
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Pecita";
+}
+.bgcard{
+  background-image: url(../../assets/images/card/popularcard.png); 
+  background-repeat: no-repeat;
+}
+.scrolling-menu {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.scrolling-menu::-webkit-scrollbar{
+  display:none;
+}
+.menu-card {
+  display: inline-block;
+  margin-right: 1px;
+  border-radius: 1px;
+  padding: 10px;
+}
+

@@ -1,0 +1,10 @@
+@import url(https://db.onlinewebfonts.com/c/5e605ff6994ce0e533aaf6cd51c6a33f?family=Pecita);
+.bg{
+    background-image: url("../../assets/images/bg/cartBg.jpg");
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Pecita";
+    background-attachment: scroll;
+}

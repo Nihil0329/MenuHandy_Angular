@@ -1,0 +1,43 @@
+<div class="bg">
+    <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand"><img src="../../assets/images/logo/Logo.png" alt="LOGO"></a>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <form class="form-inline ml-auto my-2 my-lg-0">
+            <a routerLink="/"><h3 class="text-light">home</h3></a>
+            <button class="btn-lg btn-light rounded-pill ml-3 my-2 my-sm-0" type="submit">Logout</button>
+          </form>
+        </div>
+      </nav>
+      <h1 class="pt-3 text-center text-light">CONTACT US</h1>
+    <div class="container p-5">
+        <form action="">
+            <div class="row justify-content-md-center mb-3">
+                <div class="col-md-auto ">
+                    <label for="username"><h3>USERNAME</h3></label>
+                    <input type="text" name="username" id="username" class="inputbox">
+                </div>
+            </div>
+            <div class="row justify-content-md-center mb-3">
+                <div class="col-md-auto ">
+                    <label for="email"><h3>EMAIL ID </h3></label>
+                    <input type="email" name="email" id="email" class="inputbox">
+                </div>
+            </div>
+            <div class="row justify-content-md-center mb-3">
+                <div class="col-md-auto ">
+                    <label for="message"><h3>MESSAGE </h3></label>
+                    <input type="textarea" name="message" id="message" class="inputbox2">
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto ">
+                    <input type="submit" class="btn-dark rounded-pill btn-lg" routerLink="/" value="send now">
+                </div>
+            </div>  
+        </form>
+    </div>
+</div>
